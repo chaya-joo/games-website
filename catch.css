@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(241, 238, 182);
+    background-color: rgb(245, 243, 194);
+    height: '100%';
+}
+
+#con {
+    width: 75%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-flex;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.mdiv {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: groove 1px rgb(122, 114, 114);
+    box-shadow: 0 5px rgb(53, 49, 49);
+    transform: translateY(4px);
+}
+
+#div1 {
+    margin-left: 170px;
+    background-color: rgb(233, 176, 255);
+}
+
+#div2 {
+    background-color: rgb(245, 181, 203);
+}
+
+#div3 {
+    background-color: rgb(233, 205, 149);
+}
+
+#div4 {
+    background-color: rgb(235, 236, 146);
+}
+
+#div5 {
+    background-color: rgb(173, 248, 158);
+}
+
+.btnOn {
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: groove 1px rgb(150, 128, 128);
+    box-shadow: 0 5px rgb(163, 161, 158);
+}
+
+.btnOn:active {
+    box-shadow: 0 5px rgb(126, 125, 125);
+    transform: translateY(4px);
+}
+
+.b:hover {
+    background-color: rgb(216, 200, 178);
+}
+
+#StopContinue {
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: groove 1px rgb(150, 128, 128);
+    box-shadow: 0 5px rgb(163, 161, 158);
+}
+
+.cir {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: rgb(245, 243, 194);
+    border: solid 1px rgb(245, 243, 194);
+}
+
+#container {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#points {
+    height: 30px;
+    width: 120px;
+    font-size: x-large;
+    color: brown;
+}
+
+#little {
+    display: -webkit-flex;
+    /* background-color: blue; */
+    width: 220px;
+    height: 30px;
+    font-size: x-large;
+    padding-bottom: 1px;
+    margin-left: 10px;
+}
+
+#h {
+    width: 100px;
+    height: 100px;
+}
+
+#up {
+    display: -webkit-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-size: x-large;
+
+}
+
+div {
+    color: rgb(207, 167, 57);
+}
+
+#main {
+    display: -webkit-flex;
+}
+
+#but2 {
+    width: 200px;
+    flex-wrap: wrap;
+    /* background-color: bisque; */
+    margin-left: 30px;
+    padding-top: 40px;
+}
+
+#timer {
+    width: 80px;
+    margin-left: 15px;
+    color: darkblue;
+}

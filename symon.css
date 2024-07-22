@@ -1,0 +1,120 @@
+body
+{
+    background-color: rgb(216, 227, 250) ;
+    background-image: url("./שקופית1.JPG");
+    background-position-x:center;
+    background-repeat: no-repeat;
+background-size:2000px;
+height: 100%;
+}
+header
+{
+    width: 80%;
+    height: 100px;
+    padding-top: 35px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(253, 172, 66);
+    font-family: Tahoma;
+    margin-left: 50px;
+}
+#container
+{
+    margin-top: 5%;
+    border-radius: 15%;
+    /* background-color: rgb(215, 220, 250); */
+    height: 100%;
+    margin-left: 110px;
+    width: 1600px;
+}
+#btn
+{
+    height: 110px;
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: larger;
+    font-style: initial;
+    background-color: rgb(17, 69, 148);
+    border-style:groove;
+    border-color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 50%;
+    box-shadow: 0 9px  rgb(255, 255, 255);
+    color: rgb(209, 206, 204);
+    font-family: Tahoma;
+}
+#btn:active {
+    box-shadow: 0 5px rgb(255, 255, 255);
+    transform: translateY(4px);
+  }
+#con1
+{
+    display: -webkit-flex;
+    margin-left: 200px;
+    margin-top: 0px;
+    /* background-color: aliceblue; */
+}
+#con2
+{
+    display: -webkit-flex;
+    margin-left: 350px;
+    width: 1300px;
+    /* background-color: aliceblue; */
+}
+.d
+{
+    height: 250px;
+    width: 250px;
+    /* border-radius: 50%; */
+    margin: 2%;
+    border-color: rgb(247, 243, 238);
+}
+#d1
+{
+    background-color:rgb(56, 59, 219);
+}
+#d2
+{
+    background-color:rgb(236, 57, 57);
+}
+#d3
+{
+   
+    background-color:rgb(132, 219, 44);
+}
+#d4
+{
+    background-color:rgb(175, 32, 211);
+}
+#d5
+{
+    background-color:rgb(207, 146, 31);
+}
+
+#text
+{
+    height: 90px;
+    width: 280px;
+    margin-left: 150px;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: auto;
+    text-align: center;
+    color: rgb(236, 172, 186);
+    font-size: 50px;
+    font-style: initial;
+    border-style:groove;
+    border-color: rgb(247, 172, 187);
+    font-family: Tahoma;
+    border-right: none;
+    border-left: none;
+}
+#btn:hover
+{
+    background-color: rgb(52, 104, 182);
+}
+audio
+{
+    display: none;
+}

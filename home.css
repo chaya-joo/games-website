@@ -1,0 +1,178 @@
+
+body
+{
+background-image:url("./background.jpg");
+background-position-x:left;
+background-position-y: center;
+/* background-size:1590px; */
+height: 100%;
+width:100%;
+}
+header
+{
+    margin-top: 100px;
+    color: rgb(170, 204, 255);
+    text-align: center;
+    font-size:70px;
+    font-family: Tahoma;
+}
+#h
+{  
+    font-family: Tahoma;
+    height: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5px;
+    color:rgb(13, 67, 148) ;
+    margin-top: 50px;
+}
+#h2
+{
+    font-family: Tahoma;
+    color:rgb(13, 67, 148) ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+#con
+{
+    /* display: -webkit-flex; */
+    font-size: 20px;
+    /* text-align: center; */
+    height: 300px;
+    /* width: auto; */
+    padding-top: 0px;
+    background:none;
+    padding-right: auto;
+    padding-left: auto;
+    margin-top: 20px;
+}
+
+.b
+{
+    /* margin-top: 60px; */
+    height: 80px;
+    width:200px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    /* background-color: rgb(16, 39, 139); */
+    border: 0.9px groove  rgb(160, 109, 0);
+    background-color:initial;
+    color: rgb(160, 109, 0) ;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+.b:hover
+{
+    background-color: initial;
+
+}
+
+/* .level:hover
+{
+    background-color: rgb(216, 200, 178);
+} */
+p
+{
+    margin-top: 20px;
+    margin-left: 600px;
+    background-color: aqua;
+    background-color: rgb(67, 224, 224);
+    height: min-content;
+    width: 300px;
+    font-size: 30px;
+}
+#c
+{
+    /* background-color: blueviolet; */
+    width: 200px;
+    font-size: 30px;
+    /* display: -webkit-flex; */
+}
+.level
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+#con2
+{
+    display: -webkit-flex;
+    font-size: 20px;
+    height: 180px;
+    width: 1500px;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+#d
+{
+    margin-top: 33px;
+    margin-left: 20px;
+}
+#z
+{
+    /* margin-right: 400px; */
+    /* margin-top: 40px; */
+    margin-left: none;
+    width: 200px;
+}
+#he
+{
+    font-size: 50px;
+}
+input{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border:groove;
+    background-color: inline-block;
+    font-size: large;
+    padding-left: 13px;
+    color: rgb(92, 92, 95);
+    background-color:rgb(255, 236, 225);
+}
+
+#name
+{
+    margin-top: 40px;
+    height: 30px;
+    width: 370px;
+    border-radius: 10px;
+   font-size: large;
+   background-color: rgb(216, 148, 0);
+}
+#name:hover{
+    background-color: rgb(245, 167, 0);
+   
+}
+.mem
+{
+    /* color: aliceblue; */
+    color: rgb(160, 109, 0);
+    text-decoration: none;
+   font-size: x-large;
+   font-family: Tahoma;
+}
+.mem:hover
+{
+    color:  rgb(160, 109, 0);
+}
+label
+{
+    font-size: xx-large;
+    margin-right: 20px;
+}

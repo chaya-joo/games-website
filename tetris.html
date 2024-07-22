@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris-Game</title>
+    <script src="./tetris.js"></script>
+    <link rel="stylesheet" href="tetris.css">
+</head>
+<body onload="start()" >
+    <div id="container">
+        <div id="con1">
+        <div class="d" id="d1"></div>
+        <div class="d" id="d2"></div>
+        <div class="d" id="d3"></div>
+        <div class="d" id="d4"></div>
+        <div class="d" id="d5"></div>
+    </div>
+    
+    <div id="conm">
+        <div id="color">
+            <label for="a">choose the color:</label> 
+            <br>
+            <input type="color" id="a">
+        </div>
+        <div id="middle">
+        <div id="text"> choose the level:</div>
+        <button onclick="level1()"  onclick="actDate()"class="mainbut">level 1</button>
+        <button onclick="level2()"  class="mainbut">level 2</button>
+        <button onclick="level3()"  class="mainbut">level 3</button>
+    </div>
+</div>
+
+    <div id="con3">
+
+        
+    <div id="p"></div>
+    <div id="t"></div>
+
+</div>
+    <div id="con2">
+        <button class="b" id="b1" onclick="game(this.id)"></button>
+        <button class="b" id="b2" onclick="game(this.id)"></button>
+        <button class="b" id="b3" onclick="game(this.id)"></button>
+        <button class="b" id="b4" onclick="game(this.id)"></button>
+        <button class="b" id="b5" onclick="game(this.id)"></button>
+    </div>
+    </div>
+</body>
+</html>
